@@ -33,7 +33,8 @@
             image_link(){
 
                 if(this.project){
-                    return 'http://localhost:8001/storage/'+this.project.image
+                    var host = location.origin
+                    return host+'/storage'+this.project.image
                 }
 
                 return 'https://via/placeholder.com/150'
