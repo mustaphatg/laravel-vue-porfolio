@@ -34,7 +34,7 @@
 
                 if(this.project){
                     var host = location.origin
-                    return host+'/storage'+this.project.image
+                    return host+'/storage/'+this.project.image
                 }
 
                 return 'https://via/placeholder.com/150'
