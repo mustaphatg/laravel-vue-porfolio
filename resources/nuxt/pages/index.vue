@@ -12,7 +12,7 @@
                     <h1 class="text-5xl font-bold">A professional and a full stack developer.</h1>
 
                     <p class="py-4 text-lg font-bold font-mono">
-                       I'm a passionate Full Stack web developer with <b class="underline"> more than 3 years </b> of experience in both frontend and backend web development. <br><br> I majorly use PHP, Laravel, CodeIgniter, React/vue and MySQL in my day-to-day coding session.
+                       I'm a passionate Full Stack web developer with <b class="underline">4 years</b> of experience in both frontend and backend web development. <br><br> I majorly use PHP, Laravel, CodeIgniter, React/vue and MySQL in my day-to-day coding session.
                     </p>
 
                     <!-- social media links -->
@@ -43,8 +43,8 @@
 
 <style >
     .hero{
-        background-image: url('~/assets/musty3.jpg');
-        background-size: cover;
+        background-image: url('~/assets/musty4.jpg');
+        background-size: fill;
         background-repeat: no-repeat;
         background-position-y: center;
     }

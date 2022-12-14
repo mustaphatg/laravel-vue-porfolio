@@ -16,8 +16,8 @@
         <div class="project_card card w-full  my-5 bg-base-100 shadow-md border border-2 border-blue-700">
             <figure><img src="/storage/{{$project->image}}" alt="Shoes" /></figure>
             <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 class="card-title">{{$project->name}}</h2>
+                <p>{{$project->description}}</p>
                 <div class="card-actions justify-end">
                     <a href="{{route('delete_project', ['id' => $project->id])}}"
                         class="btn btn-sm bg-red-600 border-none hover:bg-red-500 text-white">Delete</a>

@@ -68,11 +68,26 @@ class MustyController extends Controller
     }
 
 
+    // edit project
     public function edit_project(Request $request, $id)
     {
 
         $data['project'] = Project::findOrFail($id);
         return view('edit_project', $data);
+    }
+
+    
+
+    // update project
+    public function update_project(Request $request)
+    {
+        Project::where('id', $request->id)->update([
+            'name' => $request->name,
+            'description' => $request->description,
+            'link' => $request->link
+        ]);
+
+        return redirect()->route('all_projects');
     }
 
 
