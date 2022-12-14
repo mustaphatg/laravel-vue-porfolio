@@ -1,6 +1,6 @@
 <template>
 
-    <div class="navbar  shadow-md">
+    <div class="navbar  shadow-md border-b border-blue-900">
 
         <div class="flex-none">
 
@@ -42,7 +42,7 @@
                 <li class=""> <nuxt-link to="/projects">Projects</nuxt-link> </li>
                 <li class=""> <nuxt-link to="/contact">Contact</nuxt-link> </li>
             </ul>
-            <button @click="toggleDark" class="ml-3 btn btn-sm btn-info ">{{theme}} theme</button>
+            <!-- <button @click="toggleDark" class="ml-3 btn btn-sm btn-info ">{{theme}} theme</button> -->
         </div>
 
     </div>

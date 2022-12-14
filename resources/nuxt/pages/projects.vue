@@ -1,9 +1,9 @@
 <template>
     <div class="p-8">
 
-        <h3>The projects I have worked on and hosted</h3>
+        <h2 class="lg:text-2xl font-mono">Lists of my personal projects...</h2>
 
-        <div class="flex justify-evenly flex-wrap py-5">
+        <div class="flex  justify-between flex-wrap py-5">
             <project-card
                 v-for="project in projects"
                 :key="project.id"
