@@ -13,7 +13,7 @@ class ProjectApiController extends Controller
     public function all_project(Request $request)
     {
 
-        $projects = Project::orderBy('id', 'desc')->get();
+        $projects = Project::orderBy('id', 'asc')->get();
 
         return response()->json($projects);
 
