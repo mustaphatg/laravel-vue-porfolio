@@ -10,7 +10,7 @@
                 <a
                     :href="project.link"
                     target="_blank"
-                    class="btn btn-sm glass hover:outline hover:outline-2 hover:outline-offset-4 hover:border"
+                    class="btn btn-sm  hover:outline hover:outline-2 hover:outline-offset-4 outline-gray-900 hover:border"
                     >view this app</a
                 >
             </div>

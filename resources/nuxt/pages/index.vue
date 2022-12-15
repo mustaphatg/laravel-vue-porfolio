@@ -4,11 +4,11 @@
 
         <div class="hero h-full  bg-base-200">
 
-            <div class="hero-overlay bg-opacity-80"></div>
+            <div class="hero-overlay bg-opacity-70"></div>
 
             <div class="hero-content">
 
-                <div class="p-8">
+                <div class="p-8 text-white">
                     <h1 class="text-5xl font-bold">A professional and a full stack developer.</h1>
 
                     <p class="py-4 text-lg font-bold font-mono">
