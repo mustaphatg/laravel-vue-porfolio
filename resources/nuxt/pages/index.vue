@@ -16,10 +16,11 @@
                     </p>
 
                     <!-- social media links -->
-                    <div class="btn-group">
-                        <a class="btn  border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://linkedin.com/in/mustaphatg"> <v-icon class="w-5 mr-3" name='linkedin'></v-icon> Linkedin</a>
-                        <a class="btn  border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://github.com/mustaphatg"> <v-icon class="w-5 mr-3" name='github'></v-icon> Github</a>
-                        <a class="btn   border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://drive.google.com/file/d/1fzpdVeJUXr7YlnunuLVORfGGdc-yK5Uj/view?usp=sharing"> <v-icon class="w-5 mr-3" name='file'></v-icon> Resume</a>
+                    <div class="btn-group ">
+                        <a class="btn glass border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://linkedin.com/in/mustaphatg"> <v-icon class="w-5 mr-3" name='linkedin'></v-icon> Linkedin</a>
+                        <a class="btn glass  border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://github.com/mustaphatg"> <v-icon class="w-5 mr-3" name='github'></v-icon> Github</a>
+                        <a class="btn glass border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://drive.google.com/file/d/1fzpdVeJUXr7YlnunuLVORfGGdc-yK5Uj/view?usp=sharing"> <v-icon class="w-5 mr-3" name='file'></v-icon> Resume</a>
+                        <a class="btn glass  border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="mailto:mustaphatg.001@gmail.com,mustophatg@gmail.com?subject=Mail From Your Porfolio"> <v-icon class="w-5 mr-3" name='mail'></v-icon> Mail</a>
                     </div>
                 </div>
 

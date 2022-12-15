@@ -1,6 +1,6 @@
 <template>
 
-    <div class="navbar  shadow-md border-b border-blue-900">
+    <div class="navbar  shadow-md ">
 
         <div class="flex-none">
 
