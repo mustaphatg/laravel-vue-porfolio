@@ -1,3 +1,27 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); */
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* hero text */
+.hero_text {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.nuxt-link-exact-active{
+    @apply  text-white font-bold  border-white border-b-2
+}
+
+
+ .menu a:active{
+    @apply text-white bg-base-200
+}
+
+.menu li:hover {
+    @apply text-white
+}
+

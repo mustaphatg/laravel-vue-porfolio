@@ -1,9 +1,9 @@
 <template>
-    <div class="p-8">
+    <div data-theme="light" class=" p-8 m-4 rounded">
 
-        <h2 class="lg:text-2xl font-mono">Lists of my personal projects...</h2>
+        <h2 class="lg:text-2xl shadow-md text-center text-black font-mono">Lists of my personal projects</h2>
 
-        <div class="flex  justify-between flex-wrap py-5">
+        <div class="flex h-full justify-between flex-wrap py-5">
             <project-card
                 v-for="project in projects"
                 :key="project.id"

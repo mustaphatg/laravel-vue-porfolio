@@ -1,12 +1,12 @@
 <template>
 
-    <div class="navbar  shadow-md ">
+    <div class="navbar border-b border-gray-200 shadow-md ">
 
         <div class="flex-none">
 
             <label
                 for="my-drawer"
-                class="btn btn-square btn-ghost drawer-button "
+                class="btn btn-square btn-ghost drawer-button text-white lg:hidden"
             >
 
                 <svg
@@ -31,7 +31,7 @@
 
         <div class="flex-1">
 
-            <a class="btn btn-ghost normal-case text-xl">Ibrahim Mustapha</a>
+            <a class="btn btn-ghost text-white font-bold normal-case text-xl">Ibrahim Mustapha</a>
 
         </div>
 

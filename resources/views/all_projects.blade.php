@@ -9,7 +9,7 @@
         <li><a href="{{route('add_project')}}">Create Project</a></li>
     </ul>
 
-    <div class="flex justify-between flex-wrap">
+    <div id="dd" class="flex justify-start flex-wrap">
 
         @foreach($projects as $project)
 
@@ -39,8 +39,18 @@
 
 @section('css')
 <style>
+
+
+
     @media only screen and (min-width: 1024px) {
+
+
+        #dd{
+            text-align: center;
+        }
+
         .project_card {
+            margin: 1%;
             flex-shrink: 0;
             flex-basis: 30%;
         }
