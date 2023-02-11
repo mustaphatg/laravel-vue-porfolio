@@ -1,7 +1,9 @@
 <template>
-    <div  class=" p-8 m-4 rounded overflow-x-hidden">
+    <div  class="overflow-x-hidden">
 
-        <h2 class="lg:text-2xl text-white font-bold  text-left font-mono">My Personal Projects</h2>
+        <div class="m-4 ">
+            <h2 class="lg:text-2xl text-white font-bold  text-center font-mono">My Personal Projects</h2>
+        </div>
 
         <div class="flex h-full justify-between flex-wrap py-5">
             <project-card

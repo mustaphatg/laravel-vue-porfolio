@@ -1,5 +1,5 @@
 <template>
-    <div
+    <!-- <div
         class=" project_card card w-full  my-5 bg-base-200 border border-1 border-blue-200 "
     >
         <figure class="bg-blue-50"><img class="object-contain" :src="image_link" /></figure>
@@ -15,7 +15,29 @@
                 >
             </div>
         </div>
+    </div> -->
+
+    <div class=" border-white border-b-8 bg-sky-900 w-full p-3 text-white">
+
+
+        <div class="flex flex-col lg:flex-row  w-full">
+
+            <!-- image div -->
+            <div class=" basis-1/2 p-2" >
+                <img class="block w-full rounded-md" :src="image_link" />
+            </div>
+
+            <!-- project info text -->
+            <div class="basis-1/2 p-2">
+                <h2 class="card-title font-mono">{{ project.name }}</h2>
+                <p v-html="project.description"></p>
+            </div>
+
+        </div>
+
     </div>
+
+
 </template>
 
 <script>
@@ -23,8 +45,6 @@ export default {
     props: ["project"],
 
     mounted() {
-        console.log("it is one");
-        console.log(this.project);
     },
 
     computed: {
