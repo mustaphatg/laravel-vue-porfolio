@@ -38,8 +38,8 @@
         <div class="flex-1 btn-sm justify-end">
             <ul class="menu menu-horizontal hidden lg:flex">
                 <li class=""> <nuxt-link to="/">Home</nuxt-link> </li>
-                <li class=""> <nuxt-link to="/about">About</nuxt-link> </li>
-                <li class=""> <nuxt-link to="/projects">Projects</nuxt-link> </li>
+                <li class=""> <nuxt-link to="/about">About Me</nuxt-link> </li>
+                <li class=""> <nuxt-link to="/projects">My Projects</nuxt-link> </li>
                 <!-- <li class=""> <nuxt-link to="/contact">Contact</nuxt-link> </li> -->
             </ul>
             <!-- <button @click="toggleDark" class="ml-3 btn btn-sm btn-info ">{{theme}} theme</button> -->

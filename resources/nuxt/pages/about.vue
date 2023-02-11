@@ -1,5 +1,5 @@
 <template>
-    <div data-theme="light" class="lg:p-14 p-6 mb-10 border rounded m-4 lg:m-10">
+    <div  class="lg:p-14 p-6 mb-10 border rounded m-4 lg:m-10">
         <div>
             <h2
                 class="text-center lg:text-4xl text-black my-4 underline"

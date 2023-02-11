@@ -9,7 +9,7 @@
                 <!-- end of header -->
 
                 <!-- Page content here -->
-                <Nuxt class="" keep-alive />
+                <Nuxt  class="" keep-alive />
                 <!-- Page content here -->
             </div>
         <!-- </smooth-scrollbar> -->

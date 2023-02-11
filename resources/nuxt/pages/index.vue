@@ -9,7 +9,7 @@
             <div class="hero-content  w-full ">
 
                 <div class="lg:p-8  text-white w-full ">
-                    <h1 class=" hero_text text-2xl lg:text-4xl  text-base   text-sky-200 ">An Enthusiastic PHP Developer</h1>
+                    <h1 class=" hero_text text-2xl lg:text-4xl   text-sky-200 ">An Enthusiastic PHP Developer</h1>
 
                     <p class="py-2 sm:py-4 text-lg font-bold font-mono">
                         I Transform Ideas into High-Performance, Scalable Web Applications.
@@ -36,7 +36,7 @@
  export default { 
     head(){
         return {
-            title : 'Ibrahim Mustapha Oyeyemi, php developer, php full stack developer, php laravel developer'
+            title : 'Ibrahim Mustapha Oyeyemi, php developer, php full stack developer, php laravel developer, PHP developer in Osun State, Web developer in Nigeria'
         }
     },
 

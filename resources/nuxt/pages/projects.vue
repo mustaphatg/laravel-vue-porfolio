@@ -1,5 +1,5 @@
 <template>
-    <div data-theme="light" class=" p-8 m-4 rounded">
+    <div  class=" p-8 m-4 rounded">
 
         <h2 class="lg:text-2xl shadow-md text-center text-black font-mono">Lists of my personal projects</h2>
 
