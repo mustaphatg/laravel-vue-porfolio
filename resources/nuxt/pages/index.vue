@@ -19,7 +19,7 @@
                     <div class="sm:btn-group lg:p-2 flex-wrap  sm:flex-no-wrap sm:overflow-hidden lg:overflow-hidden lg:no-wrap">
                         <a class="btn   m-2 sm:m-0    text-xs lg:text-base border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://linkedin.com/in/mustaphatg"> <v-icon class="w-5 mr-3" name='linkedin'></v-icon> Linkedin</a>
                         <a class="btn   m-2 sm:m-0   text-xs lg:text-base border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://github.com/mustaphatg"> <v-icon class="w-5 mr-3" name='github'></v-icon> Github</a>
-                        <a class="btn   m-2 sm:m-0  text-xs lg:text-base border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://drive.google.com/file/d/1j2TvOiXHqIAxTscNYlZ4SUdgIsHLoZ1k/view?usp=sharing"> <v-icon class="w-5 mr-3" name='file'></v-icon> Resume</a>
+                        <a class="btn  m-2 sm:m-0  text-xs lg:text-base border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="https://drive.google.com/file/d/1j2TvOiXHqIAxTscNYlZ4SUdgIsHLoZ1k/view?usp=sharing"> <v-icon class="w-5 mr-3" name='file'></v-icon> Resume</a>
                         <a class="btn   m-2 sm:m-0  text-xs lg:text-base  border  hover:border-blue-300 hover:outline hover:outline-1 hover:outline-offset-2" target="_blanck" href="mailto:mustaphatg.001@gmail.com,mustophatg@gmail.com?subject=Mail From Your Porfolio"> <v-icon class="w-5 mr-3" name='mail'></v-icon> Mail</a>
                     </div>
                 </div>

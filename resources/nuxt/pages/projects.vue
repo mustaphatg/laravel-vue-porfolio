@@ -1,7 +1,7 @@
 <template>
-    <div  class=" p-8 m-4 rounded">
+    <div  class=" p-8 m-4 rounded overflow-x-hidden">
 
-        <h2 class="lg:text-2xl shadow-md text-center text-black font-mono">Lists of my personal projects</h2>
+        <h2 class="lg:text-2xl text-white font-bold  text-left font-mono">My Personal Projects</h2>
 
         <div class="flex h-full justify-between flex-wrap py-5">
             <project-card
@@ -14,6 +14,8 @@
 </template>
 
 <script>
+
+
 export default {
     data() {
         return {

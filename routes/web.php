@@ -18,12 +18,11 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::prefix('musty', ['auth'])->group(function(){
+Route::middleware(['auth'])->group(function(){
 
-    Route::get('/', 'MustyController@index')->name('index');
+    
+    Route::prefix('admin')->group(function(){
 
-
-    Route::prefix('project')->group(function(){
 
         Route::get('/', "MustyController@projects")->name('all_projects');
 

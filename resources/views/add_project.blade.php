@@ -16,7 +16,7 @@
             </div>
 
             <div class="form-control my-5">
-                <textarea name="description" class="textarea textarea-primary" placeholder="Project Description"></textarea>
+                <textarea rows="10" name="description" class="textarea textarea-primary" placeholder="Project Description"></textarea>
             </div>
 
             <div class="form-control my-5">

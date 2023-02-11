@@ -1,6 +1,6 @@
 <template>
     <div
-        class="project_card card w-full  my-5 bg-base-200 border border-1 border-blue-200 "
+        class=" project_card card w-full  my-5 bg-base-200 border border-1 border-blue-200 "
     >
         <figure class="bg-blue-50"><img class="object-contain" :src="image_link" /></figure>
         <div class="card-body">
@@ -10,7 +10,7 @@
                 <a
                     :href="project.link"
                     target="_blank"
-                    class="btn btn-sm  hover:outline hover:outline-2 hover:outline-offset-4 outline-gray-900 hover:border"
+                    class="btn btn-sm bg-zinc-200 hover:outline hover:outline-1 hover:outline-offset-4 outline-zinc-200 hover:border"
                     >view this app</a
                 >
             </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="drawer drawer-mobile 2xl:w-[75%] 2xl:mx-auto ">
+    <div data-theme="dark" class="drawer drawer-mobile 2xl:w-[75%] 2xl:mx-auto ">
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
 
         <div  class="drawer-content">
