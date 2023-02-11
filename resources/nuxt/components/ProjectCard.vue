@@ -17,7 +17,7 @@
         </div>
     </div> -->
 
-    <div class=" border-white border-b-8 bg-sky-900 w-full p-3 text-white">
+    <div class=" border-white border-b-8 bg-black w-full p-3 text-white">
 
 
         <div class="flex flex-col lg:flex-row  w-full">
