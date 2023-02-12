@@ -1,23 +1,6 @@
 <template>
-    <!-- <div
-        class=" project_card card w-full  my-5 bg-base-200 border border-1 border-blue-200 "
-    >
-        <figure class="bg-blue-50"><img class="object-contain" :src="image_link" /></figure>
-        <div class="card-body">
-            <h2 class="card-title font-mono">{{ project.name }}</h2>
-            <p v-html="project.description"></p>
-            <div class="card-actions justify-end">
-                <a
-                    :href="project.link"
-                    target="_blank"
-                    class="btn btn-sm bg-zinc-200 hover:outline hover:outline-1 hover:outline-offset-4 outline-zinc-200 hover:border"
-                    >view this app</a
-                >
-            </div>
-        </div>
-    </div> -->
 
-    <div class=" border-white border-b-8 bg-black w-full p-3 text-white">
+    <div class=" border-white border-b-8 bg-gradient-to-br from-gray-900 to-gray-700  w-full p-3 text-white">
 
 
         <div class="flex flex-col lg:flex-row  w-full">
@@ -28,9 +11,18 @@
             </div>
 
             <!-- project info text -->
-            <div class="basis-1/2 p-2">
-                <h2 class="card-title font-mono">{{ project.name }}</h2>
-                <p v-html="project.description"></p>
+            <div class="basis-1/2 p-2 text-sky-200">
+                <h2 class="card-title ">{{ project.name }}</h2>
+                <p class="break-all" v-html="project.description"></p>
+
+                <br>
+                <br>
+                <a
+                    :href="project.link"
+                    target="_blank"
+                    class="btn text-white mt-4 bg-gradient-to-r from-blue-400 to-pink-400 hover:from-orange-400 hover:to-yellow-400"
+                    >view this app</a
+                > 
             </div>
 
         </div>

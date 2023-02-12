@@ -1,18 +1,16 @@
 <template>
-    <div  class="lg:p-14 p-6 mb-10 border rounded m-4 lg:m-10">
+    <div  class="lg:p-14 p-6 mb-10  bg-gradient-to-tl from-gray-900 to-gray-700  text-black rounded-md m-4 lg:m-10">
         <div>
             <h2
-                class="text-center lg:text-4xl text-black my-4 underline"
+                class="text-center text-2xl lg:text-4xl text-sky-200 font-bold my-4 underline"
                 style="font-family: cursive"
             >
                 About Me
             </h2>
 
-            <p class="sm:p-3 md:p-5 font-semibold md:text-xl ">
-                With 3 years of web development under my belt and a passion for
-                the LAMP stack technology, I offer daily support and expertise in PHP.
+            <p class="sm:p-3 md:p-5 md:text-xl text-sky-200">
+               
 
-                <br /><br />
                 My journey began as a 3D animator, where I discovered the power
                 of Python and C++ through my work with Blender software. Fueled
                 by my thirst for knowledge, I delved into the world of
@@ -21,7 +19,10 @@
 
                 <br /><br />
                 Realizing what I could do with programming inspired me to
-                abandon animation in favor of a career in web development.That's
+                abandon animation in favor of a career in web development.
+                
+                <br><br>
+                That's
                 when I stumbled upon PHP and was immediately drawn to its
                 versatility and robust ecosystem. As a skilled PHP developer, I
                 craft backend solutions with the likes of PHP, Laravel, MySQL,
@@ -32,7 +33,8 @@
             </p>
 
             <h3
-                class="my-4 lg:text-3xl text-xl bg-zinc-700 text-center rounded text-white p-3"
+                class="my-4  text-2xl lg:text-4xl underline text-center rounded text-sky-200 font-bold p-3"
+                style="font-family: cursive"
             >
                 Technologies I currently use
             </h3>
@@ -64,13 +66,13 @@
                         <tr>
                             <td>Python</td>
                             <td>Reactjs</td>
-                            <td>Clean code</td>
+                            <td>Test Driven Development</td>
                         </tr>
 
                         <tr>
                             <td></td>
                             <td>Vuejs</td>
-                            <td></td>
+                            <td>DRY</td>
                         </tr>
                     </tbody>
                 </table>

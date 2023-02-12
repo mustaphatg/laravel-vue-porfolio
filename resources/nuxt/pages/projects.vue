@@ -1,7 +1,7 @@
 <template>
     <div  class="overflow-x-hidden">
 
-        <div class="m-4 ">
+        <div class="my-10 ">
             <h2 class="lg:text-2xl text-white font-bold  text-center font-mono">My Personal Projects</h2>
         </div>
 
@@ -19,6 +19,7 @@
 
 
 export default {
+
     data() {
         return {
             name: "ibrahim Mustpha",

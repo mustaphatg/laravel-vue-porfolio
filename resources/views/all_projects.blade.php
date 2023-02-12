@@ -13,7 +13,7 @@
 
         @foreach($projects as $project)
 
-        <div class="project_card card w-full  my-5 bg-base-100 shadow-md border border-2 border-blue-700">
+        <div class="project_card card w-full  my-5 bg-base-100 shadow-md  border-2 break-all border-blue-700">
             <figure><img src="/storage/{{$project->image}}" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title">{{$project->name}}</h2>

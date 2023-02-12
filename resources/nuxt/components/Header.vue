@@ -1,6 +1,6 @@
 <template>
 
-    <div class="navbar border-b border-blue-300 shadow-md ">
+    <div class="navbar shadow-md bg-gradient-to-b from-gray-900  to-gray-600 ">
 
         <div class="flex-none">
 
