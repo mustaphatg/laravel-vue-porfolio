@@ -1,13 +1,13 @@
 <template>
 
-    <div class=" border-white border-b-8 bg-gradient-to-br from-gray-900 to-gray-700  w-full p-3 text-white">
+    <div class=" border-white border-b-[15px] bg-gradient-to-br from-gray-900 to-gray-700  w-full p-3 text-white">
 
 
         <div class="flex flex-col lg:flex-row  w-full">
 
             <!-- image div -->
-            <div class=" basis-1/2 p-2" >
-                <img class="block w-full rounded-md" :src="image_link" />
+            <div class=" basis-1/2 p-2 " >
+                <img class="block w-full rounded-md border border-blue-300 rounded" :src="image_link" />
             </div>
 
             <!-- project info text -->

@@ -2,8 +2,7 @@
     <div  class="lg:p-14 p-6 mb-10  bg-gradient-to-tl from-gray-900 to-gray-700  text-black rounded-md m-4 lg:m-10">
         <div>
             <h2
-                class="text-center text-2xl lg:text-4xl text-sky-200 font-bold my-4 underline"
-                style="font-family: cursive"
+                class="text-center text-xl lg:text-2xl text-white font-mono font-bold my-4 underline"
             >
                 About Me
             </h2>
@@ -33,8 +32,7 @@
             </p>
 
             <h3
-                class="my-4  text-2xl lg:text-4xl underline text-center rounded text-sky-200 font-bold p-3"
-                style="font-family: cursive"
+                class="my-4  text-xl lg:text-2xl underline text-center rounded text-white font-mono font-bold p-3"
             >
                 Technologies I currently use
             </h3>
